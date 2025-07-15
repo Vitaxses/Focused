@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "focused",
+  "version": "1.0.0",
+  "name": "Focused",
+  "description": "When getting attacked: Minecraft Focuses and Un-Minimizes!",
+  "authors": ["Vitaxses"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/focused/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.vitaxses.focused.client.FocusedClient"
+    ],
+    "main": [
+      "me.vitaxses.focused.Focused"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.4",
+    "fabric": "*",
+    "minecraft": "1.21.5"
+  }
+}
